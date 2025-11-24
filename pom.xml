@@ -45,7 +45,6 @@
 		<dependency>
 		    <groupId>com.google.generativeai</groupId>
 		    <artifactId>generative-ai-java</artifactId>
-		    <version>0.1.0</version> <!-- Use the latest stable version -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
