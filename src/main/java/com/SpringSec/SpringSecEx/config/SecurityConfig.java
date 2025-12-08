@@ -32,7 +32,9 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth.anyRequest().authenticated())
             .formLogin(Customizer.withDefaults())
             .httpBasic(Customizer.withDefaults())
-            // .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+            .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+
+            
             .build();
     }
 
